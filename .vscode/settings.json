@@ -1,0 +1,18 @@
+{
+	"tailwindCSS.lint.suggestCanonicalClasses": "ignore",
+	// Дозволяє бачити сніпети разом із пропозиціями IntelliSense
+	"editor.snippetSuggestions": "top",
+	// Дозволяє розгортати сніпети через Tab
+	"editor.tabCompletion": "on",
+	// Важливо для JSX: дозволяє Emmet та сніпетам працювати в JS/TS файлах
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+	// Підтягує швидкі підказки навіть всередині рядків або тегів
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": true
+	}
+}
